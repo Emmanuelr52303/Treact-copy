@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Treact-copy</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
@@ -17,9 +17,19 @@
         <nav>
             <div class="row nav__row">
                 <div class="nav__logo">
-                <!--  -->Nav Logo here<!--  -->
+                    <img src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" class="nav_img" alt="">
+                    <div class="nav_logo-title">Treact</div>
                 </div>
-                <!--  -->Enter Nav Links here<!--  -->
+                <ul class="links">
+                    <li class="link">About</li>
+                    <li class="link">Blog</li>
+                    <li class="link">Pricing</li>
+                    <li class="link">Contact Us</li>
+                    <div class="login_links">
+                        <button class="link login-btn">Login</button>
+                        <button class="link sign_up-btn">Sign Up</button>
+                    </div>
+                </ul>
                 <button class="btn__menu" onclick="openMenu()">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -52,7 +62,14 @@
         <header>
             <div class="container">
                 <div class="row">
-                    <!--  -->Enter Header / About Us Section<!--  -->
+                    <div class="header_description">
+                        <h1 class="header_title">Beautiful React Templates <span class="purple">for you.</span></h1>
+                        <p class="header_para">Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.</p>
+                        <div class="header_email">
+                            <input type="text" class="header_email-input" placeholder="Your E-mail address">
+                            <button class="header_email-btn">Get Started</button>
+                        </div>
+                    </div>
             </div>
         </header>
     </section>
