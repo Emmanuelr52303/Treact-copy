@@ -197,7 +197,7 @@ header .row {
 }
 
 .header_description {
-    width: 40%;
+    
 }
 
 .header_title{
@@ -207,7 +207,7 @@ header .row {
 }
 
 .header_para{
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.5;
     margin-bottom: 30px;
 }
@@ -215,26 +215,57 @@ header .row {
 .header_email{
     border: solid rgba(128, 128, 128, 0.267);
     border-radius: 40px;
-    height: 72px;
-    padding: 8px 4px 8px 12px;
+    height: 68px;
+    display: flex;
 }
 
 .header_email-input {
     border: none;
+    flex: 1;
+    font-size: 16px;
     opacity: 0.75;
-    width: 65%;
+    width: 100%;
+    padding: 8px 0 8px 24px;
 }
 
 .header_email-btn {
-    height: 100%;
     color: white;
     font-size: 16px;
     font-weight: bold;
     background-color: #6415ff; 
     border: none;
-    border-radius: 30px;
-    padding: 0 12px;
-    width: 30%;
+    cursor: pointer;
+    border-radius: 25px;
+    padding: 0 36px;
+    transition: all 300ms ease;
+    margin: 6px;
+}
+
+.header_email-btn:hover {
+    background-color: #243e63;
+}
+
+.header_customer-title {
+    margin-top: 76px;
+    color:#243e63;
+    opacity: 0.5;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.header_description-img {
+    width: 100%;
+    opacity: 0.5;
+    margin-top: 24px;
+}
+
+.header_img-wrapper {
+
+}
+
+.header_img {
+    margin-left: 24px;
+    width: 500px;
 }
 
 /* 
