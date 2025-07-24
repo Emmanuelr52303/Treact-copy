@@ -497,6 +497,90 @@ VALUES ↓
     align-items: center;
 }
 
+.values_description {
+    width: 50%;
+    
+}
+
+.values_title {
+    margin-top: 16px;
+    margin-right: 40px;
+    line-height: 1.25;
+    letter-spacing: 1.5px;
+}
+
+.values_para {
+    width: 100%;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.values_btn {
+    color: white;
+    font-weight: bold;
+    background-color: #6415ff;
+    border: none;
+    padding: 12px 32px;
+    border-radius: 30px;
+    margin-top: 32px;
+}
+
+.values_img-wrapper {
+    width: 50%;
+    margin: 0 60px;
+    position: relative;
+}
+
+.values_img {
+    width: 100%;
+}
+
+.values_list {
+    display: flex;
+}
+
+.value {
+    margin: 32px 32px 0 0;
+}
+
+.value_title {
+    display: flex;
+    align-items: center;
+}
+
+.value_img-wrapper {
+    background-color: rgb(154, 230, 180);
+    height: 36px;
+    width: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.value_img {
+    height: 20px;
+}
+
+.value_name {
+    margin-left: 12px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.value_para {
+    margin-top: 16px;
+    color:rgb(113, 128, 150);
+    line-height: 26px;
+}
+
+.red{
+    background-color: rgb(254, 178, 178);
+}
+
+.second_value {
+    margin-right: 0;
+}
 
 /*
 
