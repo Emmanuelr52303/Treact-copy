@@ -307,6 +307,7 @@ FEATURES ↓
 .section_title {
     font-size: 16px;
     letter-spacing: 2px;
+    font-weight: 600;
 }
 
 .section_subtitle {
@@ -593,6 +594,83 @@ PRICING ↓
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan {
+    margin-top: 64px;
+    margin-right: 32px;
+    padding-top: 8px;
+}
+
+.plan_stripe {
+    height: 8px;
+    background-image: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+.plan_top {
+    padding: 32px;
+}
+
+.plan_name {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32.5px;
+    text-align: center;
+}
+
+.plan_price {
+    margin: 4px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 78px;
+    text-align: center;
+}
+
+.plan_duration {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    text-align: center;
+}
+
+.plan_middle {
+    padding: 32px;
+}
+
+.plan_target {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.plan_feature {
+    margin-top: 20px;
+    color: rgb(113, 128, 150);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.plan_bottom {
+    padding: 32px 96px;
+}
+
+.plan_button {
+    padding: 16px 32px;
+    background-image: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    border: none;
+    border-radius: 30px;
+    color: white;
 }
 
 /* 
