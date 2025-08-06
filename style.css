@@ -193,6 +193,7 @@ HEADER / ABOUT US ↓
 
 header {
     height: 80vh;
+    position: relative;
 }
 
 header .row {
@@ -235,12 +236,17 @@ header .row {
     height: 100%;
     padding: 8px 0 8px 24px;
     border-radius: 75px;
-    border: solid rgba(128, 128, 128, 0.11);
+    border: 2px solid rgba(128, 128, 128, 0.11);
     transition: all 300ms ease;
 }
 
 .header_email-input:hover {
-    border: solid grey;
+    border-color: grey;
+}
+
+.header_email-input:focus {
+    outline: none;
+    border-color: rgb(100, 21, 255);
 }
 
 
@@ -250,7 +256,7 @@ header .row {
     color: white;
     font-size: 16px;
     font-weight: bold;
-    background-color: #6415ff; 
+    background-color: rgb(100, 21, 255); 
     border: none;
     cursor: pointer;
     border-radius: 50px;
@@ -261,7 +267,7 @@ header .row {
 }
 
 .header_email-btn:hover {
-    background-color: #243e63;
+    background-color: rgb(60, 20, 139);
 }
 
 .header_customer-title {
@@ -285,6 +291,15 @@ header .row {
 .header_img {
     margin-left: 24px;
     width: 100%;
+}
+
+.landing_blob {
+    position: absolute;
+    width: 256px;
+    top: 290px;
+    left: -170px;
+    opacity: 0.05;
+    z-index: -1;
 }
 
 /* 
@@ -399,6 +414,12 @@ QUALITY WORK ↓
     padding: 12px 32px;
     border-radius: 30px;
     margin-top: 32px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.quality_btn:hover {
+    background-color: rgb(60, 20, 139);
 }
 
 .quality_img-wrapper {
@@ -525,6 +546,12 @@ VALUES ↓
     padding: 12px 32px;
     border-radius: 30px;
     margin-top: 32px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.values_btn:hover {
+    background-color: rgb(60, 20, 139);
 }
 
 .values_img-wrapper {
@@ -611,10 +638,14 @@ PRICING ↓
 .plan_stripe {
     height: 8px;
     background-image: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .plan_top {
     padding: 32px;
+    border-left: 1px solid rgba(128, 128, 128, 0.25);
+    border-right: 1px solid rgba(128, 128, 128, 0.25);
 }
 
 .plan_name {
@@ -641,6 +672,7 @@ PRICING ↓
 
 .plan_middle {
     padding: 32px;
+    border: 1px solid rgba(128, 128, 128, 0.25);
 }
 
 .plan_target {
@@ -660,6 +692,7 @@ PRICING ↓
 
 .plan_bottom {
     padding: 32px 96px;
+    border: 1px solid rgba(128, 128, 128, 0.25);
 }
 
 .plan_button {
