@@ -192,7 +192,6 @@ HEADER / ABOUT US ↓
 */
 
 header {
-    height: 80vh;
     position: relative;
 }
 
@@ -1096,6 +1095,7 @@ footer {
     cursor: pointer;
     border-radius: 50%;
     transition: all 300ms ease;
+    z-index: 2;
 }
 
 .footer_social-link:hover {
@@ -1112,6 +1112,27 @@ MOBILE RESPONSIVENESS ↓
     header .row {
         align-items: flex-end;
     }
+
+    .header_title {
+        font-size: 36px;
+    }
+
+    .header_para {
+        font-size: 16px;
+    }
+
+    .header_img-wrapper {
+        display: flex;
+        justify-content: end;
+    }    
+
+    .header_img {
+        width: 512px;
+    }
+
+    .landing_blob {
+        opacity: 0;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -1119,9 +1140,61 @@ MOBILE RESPONSIVENESS ↓
     .btn__menu {
         display: block;
     }
+    .section_subtitle {
+        font-size: 36px;
+    }
+    .large_title {
+        font-size: 48px;
+    }
     header .row {
         flex-direction: column;
         align-items: center;
+    }
+    .header_description{
+        width: 512px;
+    }
+    .header_title{
+        font-size: 30px;
+    }
+    .header_title, .header_para,
+    .header_customer-title {
+        text-align: center;
+    }
+    .header_email{
+        margin: 0 auto;
+    }
+    .header_description-img {
+        height: 42.42px;
+    }
+    .header_customer-title{
+        margin-top: 30px;
+    }
+    .header_img-wrapper{
+        margin-top: 40px;
+    }
+    .features {
+        width: 768px;
+    }
+    .feature {
+        width: 50%;
+    }
+    .plans {
+        flex-direction: column;
+    }
+    .testimonials_img {
+        width: 40%;
+    }
+    .start_row {
+        flex-direction: column;
+    }
+    .start_title {
+        text-align: center;
+    }
+    .start_buttons {
+        margin-top: 24px;
+    }
+    .start_button {
+        padding: 16px 32px;
     }
     footer {
         padding: 80px 32px;
@@ -1141,6 +1214,103 @@ MOBILE RESPONSIVENESS ↓
     #pricing .row {
         margin-top: 40px;
     }
+    .section_title,
+    .section_subtitle,
+    .section_para {
+        text-align: center;
+    }
+    .section_para{
+        font-size: 14px;
+    }
+    .header_img-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .features{
+        flex-direction: column;
+        align-items: center;
+    }
+    .quality_img-wrapper, .quality_description {
+        width: 448px;
+    }
+    .quality_description {
+        margin: 64px 0 0 0;
+    }
+    .quality_title {
+        margin: 16px 0 0 0;
+    }
+    .quality_btn {
+        padding: 12px 32px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 16px;
+    }
+    .steps_img-wrapper {
+        width: 448px;
+    }
+    .steps_grid {
+        left: 185px;
+    }
+    .steps_description {
+        padding-left: 0;
+        margin-top: 64px;
+    }
+    .step {
+        flex-direction: column;
+        align-items: center;
+    }
+    .step_title, .step_para {
+        text-align: center;
+    }
+    .step_description {
+        margin: 0;
+    }
+    .value_img-wrapper {
+        width: 337px;
+    }
+    .values_description {
+        width: 448px;
+    }
+    .values_list {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 64px;
+    }
+    .value_img-wrapper {
+        width: 36px;
+    }
+    .value {
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .value_para {
+        text-align: center;
+    }
+    .values_btn {
+        display: block;
+        margin: 0 auto;
+        margin-top: 32px;
+    }
+    .values_img-wrapper {
+        width: 448px;
+    }
+    .testimonial_description{
+        padding: 0;
+        width: 448px;
+    }
+    .testimonials_img {
+        width: 448px;
+    }
+    .testimonial_rating, .testimonial_title,
+    .testimonial_para {
+        text-align: center;
+    }
+    .start_buttons {
+        justify-content: center;
+    }
 }
 
 @media(max-width: 640px) {
@@ -1153,5 +1323,45 @@ MOBILE RESPONSIVENESS ↓
     }
     main {
         margin-bottom: 80px;
+    }
+    .section_subtitle {
+        font-size: 36px;
+    }
+    .feature_row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .feature_text {
+        margin: 16px 0 0 0;
+    }
+    .feature_title, .feature_para {
+        text-align: center;
+    }
+    .feature_para {
+        margin-top: 4px;
+    }
+    .start_title{
+        font-size: 24px;
+    }
+    .start_buttons {
+        flex-direction: column;
+        width: 127px;
+    }
+    .start_button {
+        font-size: 14px;
+        padding: 12px 24px;
+        width: 100%;
+    }
+    .btn2 {
+        margin-top: 16px;
+    }
+    .footer_bottom{
+        flex-direction: column;
+    }
+    .footer_copyright, .footer_socials {
+        margin-top: 32px;
+    }
+    .footer_copyright{
+        font-size: 14px;
     }
 }
